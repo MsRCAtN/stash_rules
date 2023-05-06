@@ -46,13 +46,6 @@ http:
       timeout: 30
       require-body: true
       max-size: 3145728
-    #魔改皮肤 作者@ClydeTime
-    - match: ^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(vip|v2|resource)\/(space|account|web|price|top_panel_info|show)(\/|\?)(mine|myinfo|access|vip_center|panel|_bridge|skin\?).*
-      name: 魔改皮肤_42
-      type: response
-      timeout: 30
-      require-body: true
-      max-size: 3145728
     # ～ BiliBili_哔哩哔哩_热搜发现@ddgksf2013
     - match: ^https://app.bilibili.com/x/v2/search/square
       name: bilibili_json_44
@@ -127,9 +120,6 @@ script-providers:
     interval: 86400
   bilibili_json_35:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-    interval: 86400
-  魔改皮肤_42:
-    url: https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/BiliBili/bili_info.js
     interval: 86400
   bilibili_json_44:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
