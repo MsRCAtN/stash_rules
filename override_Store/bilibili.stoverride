@@ -1,5 +1,5 @@
-name: 哔哩哔哩魔改
-desc: 简体cc字幕、去广告、解锁高帧率、魔改皮肤
+name: 哔哩哔哩去广告
+desc: 简体cc字幕、去广告、解锁高帧率
 #author:ddgksf2013
 http:
   rewrite:
